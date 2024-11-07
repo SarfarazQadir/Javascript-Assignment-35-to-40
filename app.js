@@ -6,5 +6,8 @@ function name() {
 }
 name();
 
+console.log("new");
+
+
 //  2
 
