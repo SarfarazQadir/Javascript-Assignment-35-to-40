@@ -6,7 +6,7 @@
 // }
 // name();
 
-console.log("new");
+//console.log("new");
 
 
 //  2
@@ -29,22 +29,31 @@ console.log("new");
 
 //4
 
-var num1 = +prompt("Enter Num 1")
-var opr = prompt("Enter Operator")
-var num2 = +prompt("Enter Num 2")
-var result;
+// var num1 = +prompt("Enter Num 1")
+// var opr = prompt("Enter Operator")
+// var num2 = +prompt("Enter Num 2")
+// var result;
 
-function name() {
-  if(opr == "+"){
-    result =  num1 + num2
-   }else if(opr == "-"){
-      result = num1 - num2
-   }else if(opr == "*"){
-      result = num1 * num2
-   }else if(opr == "/"){
-      result = num1 / num2
-   }
-return console.log(result);
+// function name() {
+//   if(opr == "+"){
+//     result =  num1 + num2
+//    }else if(opr == "-"){
+//       result = num1 - num2
+//    }else if(opr == "*"){
+//       result = num1 * num2
+//    }else if(opr == "/"){
+//       result = num1 / num2
+//    }
+// return console.log(result);
 
+// }
+// name();
+
+
+//5
+
+function square(params) {
+   params = params * params
+   console.log(params);
 }
-name();
+square(5)
