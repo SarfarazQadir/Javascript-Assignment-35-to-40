@@ -52,8 +52,36 @@
 
 //5
 
-function square(params) {
-   params = params * params
-   console.log(params);
+// function square(params) {
+//    params = params * params
+//    console.log(params);
+// }
+// square(5)
+
+//6
+
+// var n;
+
+// function factorial(params) {
+//    for (let i = 1; i < params; i++) {
+//       n = params * i
+//    }
+//    console.log(n);
+
+// }
+
+// factorial(5);
+
+//7  
+
+var ta = +prompt("Write a table number you want to print");
+var length = +prompt("Write table length");
+var n;
+function table() {
+  for (let i = 1; i <= length; i++) {
+    n = `${ta} X ${i} = ${ta * i}`;
+    console.log(n);
+  }
 }
-square(5)
+
+table();
