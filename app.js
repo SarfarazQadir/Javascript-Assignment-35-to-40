@@ -60,28 +60,45 @@
 
 //6
 
-// var n;
+//  var n = 1;
 
-// function factorial(params) {
-//    for (let i = 1; i < params; i++) {
-//       n = params * i
+//  function factorial(params) {
+//    for (let i = params; i >= 1; i--) {
+//      n = n * i;
 //    }
-//    console.log(n);
+//    document.write("Factorial of Param is : " + n);
+//  }
 
-// }
-
-// factorial(5);
+//  factorial(5);
 
 //7  
 
-var ta = +prompt("Write a table number you want to print");
-var length = +prompt("Write table length");
-var n;
-function table() {
-  for (let i = 1; i <= length; i++) {
-    n = `${ta} X ${i} = ${ta * i}`;
-    console.log(n);
-  }
+// var ta = +prompt("Write a table number you want to print");
+// var length = +prompt("Write table length");
+// var n;
+// function table() {
+//   for (let i = 1; i <= length; i++) {
+//     n = `${ta} X ${i} = ${ta * i}`;
+//     console.log(n);
+//   }
+// }
+
+// table();
+
+// 8 
+//9
+
+//10
+
+var user = prompt("Write a word");
+
+function palindorom() {
+   var check = user.split('').reverse().join('');
+    if(check == user){
+        document.write("The word is palindorom");
+    }else{
+        document.write("The word is not palindorom");
+    }
 }
 
-table();
+palindorom();
