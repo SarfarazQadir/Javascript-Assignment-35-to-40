@@ -90,15 +90,18 @@
 
 //10
 
-var user = prompt("Write a word");
+// var user = prompt("Write a word");
 
-function palindorom() {
-   var check = user.split('').reverse().join('');
-    if(check == user){
-        document.write("The word is palindorom");
-    }else{
-        document.write("The word is not palindorom");
-    }
-}
+// function palindorom() {
+//    var check = user.split('').reverse().join('');
+//     if(check == user){
+//         document.write("The word is palindorom");
+//     }else{
+//         document.write("The word is not palindorom");
+//     }
+// }
 
-palindorom();
+// palindorom();
+
+
+//<<<<<------   Completed 
